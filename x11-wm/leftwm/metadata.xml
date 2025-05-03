@@ -6,7 +6,12 @@
 	</upstream>
 	<use>
 		<flag name="lefthk">Use LeftHK hotkey daemon</flag>
+		<flag name="xlib">Use legacy backend linking to libX11</flag>
+		<flag name="x11rb">Use rust based backend using x11rb</flag>
+		<flag name="journaldlog">Use logging to journald, depends on systemd</flag>
 		<flag name="syslog">Use standard system logging</flag>
-		<flag name="systemd">Use journald logging from Systemd</flag>
+		<flag name="filelog">Enable log to /tmp/leftwm/</flag>
+		<flag name="theme">Allow using leftwm-theme</flag>
+		<flag name="config">Allow using leftwm-config</flag>
 	</use>
 </pkgmetadata>
